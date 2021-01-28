@@ -1,26 +1,56 @@
 class Solution {
-    boolean visited[];
     public int solution(int n, int[] lost, int[] reserve) {
         int answer = 0;
-        int cnt=0;
         
-        visited = new boolean[reserve.length];
-        
+        int[] student = new int[n];
+        // 체육복 정보 1로 초기화
+        for(int i=0; i<n; i++)
+            student[i]=1;    
+        // 학생별 체육복 정보 세팅
+        // 체육복 도난당한 학생
         for(int i=0; i<lost.length; i++){
-            boolean flag=false;
-            int pre=lost[i]-1; // 앞번호
-            int post=lost[i]+1; // 뒷번호
-            for(int j=0; j<reserve.length; j++){
-                System.out.println("pre/post: "+pre+"/"+post);
-                if((reserve[j]==pre || reserve[j]==post)&& !visited[j]){
-                    visited[j]=true;
-                    cnt++;
-                    System.out.println(cnt);
-                }
-                if(flag) break;
-            }
+            int index=lost[i]-1;
+            student[index]--;
         }
-        answer = n-lost.length+cnt;
+        // 체육복 여벌 가져온 학생
+        for(int i=0; i<reserve.length; i++){
+            int index=reserve[i]-1;
+            student[index]++;
+        }
+        
+        // 죄측 > 우측 순으로 체육복 빌려줄지 결정
+        int len = student.length;
+        for(int i=0; i<len; i++){
+            // 본인 이전 학생이 체육복 0인경우
+            if(i!=0 && student[i-1]==0){
+                // 본인이 여벌 체육복이 있는 경우
+                if(student[i]==2){
+                    student[i]--;
+                    student[i-1]++;
+                }else{
+                    continue;
+                } 
+            }
+                
+            // 본인 다음 학생이 체육복 0인 경우
+            if(i!=len-1 && student[i+1]==0){
+                // 본인이 여벌 체육복이 있는 경우
+                if(student[i]==2){
+                    student[i]--;
+                    student[i+1]++;
+                }else{
+                    continue;
+                }
+            }
+        } // 체육복 배분 종료
+        
+        // 체육수업 들을 수 있는 학생
+        for(int i=0; i<len; i++){
+            if(student[i]>=1) 
+                answer++;
+        }
+        
+        
         return answer;
     }
 }
