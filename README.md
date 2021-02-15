@@ -1,6 +1,10 @@
 # JAVA 알고리즘 연습
 
 > programmers level3 까지 푸는 것이 목표!
+>
+> 문제 클릭시 해당 프로그래머스 문제 페이지로 이동
+>
+> 파일 이름 클릭시 작성한 코드 파일로 이동 
 
 ### 현 상황
 
@@ -8,9 +12,10 @@
 
   | 문제                                                         | 파일 이름                                                    | 상태 |
   | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-  | [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061#) | [prgrammers_kakao_crain.java](./programmers_level_01/prgrammers_kakao_crain.java) | O    |
-  | [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644) | [prgrammers_two_num_sum.java](./programmers_level_01/prgrammers_two_num_sum.java) | O    |
-  | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [prgrammers_체육복.java](./programmers_level_01/prgrammers_체육복.java) | △    |
+  | [크레인 인형뽑기 게임](https://programmers.co.kr/learn/courses/30/lessons/64061#) | [programmers_kakao_crain.java](./programmers_level_01/programmers_kakao_crain.java) | O    |
+  | [두 개 뽑아서 더하기](https://programmers.co.kr/learn/courses/30/lessons/68644) | [programmers_two_num_sum.java](./programmers_level_01/programmers_two_num_sum.java) | O    |
+  | [체육복](https://programmers.co.kr/learn/courses/30/lessons/42862) | [programmers_체육복.java](./programmers_level_01/programmers_체육복.java) | △    |
+  | [가운데 글자 가져오기](https://programmers.co.kr/learn/courses/30/lessons/12903?language=java) | [programmers_가운데글자.java](./programmers_level_01/programmers_가운데글자.java) | O    |
 
 * level_02
 
