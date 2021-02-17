@@ -19,6 +19,7 @@
   | [두 정수 사이의 합](https://programmers.co.kr/learn/courses/30/lessons/12912) | [programmers_두정수사이의합.java](./programmers_level_01/programmers_두정수사이의합.java) | O    |
   | [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919) | [programmers_김서방.java](./programmers_level_01/programmers_김서방.java) | O    |
   | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | [programmers_kakao_new_id.java](./programmers_level_01/programmers_kakao_new_id.java) | O    |
+  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921) | [programmers_소수.java](./programmers_level_01/programmers_소수.java) | △    |
 
 * level_02
 
