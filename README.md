@@ -20,6 +20,7 @@
   | [서울에서 김서방 찾기](https://programmers.co.kr/learn/courses/30/lessons/12919) | [programmers_김서방.java](./programmers_level_01/programmers_김서방.java) | O    |
   | [신규 아이디 추천](https://programmers.co.kr/learn/courses/30/lessons/72410) | [programmers_kakao_new_id.java](./programmers_level_01/programmers_kakao_new_id.java) | O    |
   | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/12921) | [programmers_소수.java](./programmers_level_01/programmers_소수.java) | △    |
+  | [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918) | [programmers_String_basic.java]((./programmers_level_01/programmers_String_basic.java)) | O    |
 
 * level_02
 
