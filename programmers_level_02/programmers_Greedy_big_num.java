@@ -1,30 +1,28 @@
 class Solution {
     public String solution(String number, int k) {
         StringBuilder sb = new StringBuilder(number);
-        int len = sb.length(); // 문자열 길이
-        int first = 0, second = 0; // 문자 앞뒤 비교를 위한 변수
-        int cnt = 0; // 제거후 문자열의 길이
+        int idx=0; // 위치 인덱스
+        int len=0; // 문자열 길이
         
-        
-        while(k>0){
-            
-            // 제거된 문자열의 길이와 동일하면 반환
-            if(cnt == len -1){
-                return sb.substring(0,len-k);
-            }else{
-                cnt++;
-                first = (int)sb.charAt(cnt-1) - '0';
-                second = (int)sb.charAt(cnt) - '0';
-                
-                // 첫번째 수가 두번째 수보다 작으면 제거
-                if(first < second){
-                    sb.delete(cnt-1, cnt);
-                    cnt=0;
-                    len=sb.length();
-                    k--;
+        for(int i=0; i<k; i++){
+            len = sb.length();
+            idx = len-1; // j for문이 끝까지 갔을 경우 끝 문자가 제일 작다는 의미
+            for(int j=0; j<len-1; j++){
+                // 두 번째 문자가 크면 제거할 index 저장 후 반복문 종료
+                if(sb.charAt(j)<sb.charAt(j+1)){
+                    idx=j;
+                    break;
                 }
+                // 만약 두번째 문자가 작다면 반복문 계속 진행
+                // j가 len-1까지 갔는데도 큰 수를 발견하지 못하면
+                // 끝 문자가 제일 작음
+                // 위에서 선언한 idx=len-1이 그대로 적용됨
             }
+            // 문자 제거
+            sb.deleteCharAt(idx);            
         }
+        
+        // 문자열로 반환
         return sb.toString();
     }
 }
