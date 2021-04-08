@@ -26,5 +26,12 @@
 
 * level_02
 
+  | 문제                                                         | 파일 이름                                                    | 상태 |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+  | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | [programmers_Greedy_big_num.java](./programmers_level_02/programmers_Greedy_big_num.java) | O    |
+  | [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [programmers_Greedy_구명보트.java](./programmers_level_02/programmers_Greedy_구명보트.java) | O    |
+
+  
+
 * level_03
 
