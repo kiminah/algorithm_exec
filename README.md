@@ -30,7 +30,7 @@
   | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
   | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | [programmers_Greedy_big_num.java](./programmers_level_02/programmers_Greedy_big_num.java) | O    |
   | [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [programmers_Greedy_구명보트.java](./programmers_level_02/programmers_Greedy_구명보트.java) | O    |
-  | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [programmers_타겟_넘버.java](./programmers_level_02/./programmers_level_02/programmers_Greedy_구명보트.java)) | O    |
+  | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [programmers_타겟_넘버.java](./programmers_level_02/programmers_타겟_넘버.java) | O    |
 
   
 
