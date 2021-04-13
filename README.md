@@ -8,7 +8,9 @@
 >
 > past_exec 폴더 : 프로그래머스가 아닌 다른 사이트 코드 연습
 
-### 현 상황
+
+
+## 프로그래머스
 
 * level_01
 
@@ -34,8 +36,6 @@
   | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [programmers_스킬트리.java](./programmers_level_02/programmers_스킬트리.java) | O    |
   | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [programmers_다리를_지나는_트럭.java](./programmers_level_02/programmers_다리를_지나는_트럭.java) | △    |
 
-  
-
 * level_03
 
   | 문제                                                         | 파일 이름                                                    | 상태 |
@@ -45,3 +45,11 @@
   | [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [programmers_여행경로.java](./programmers_level_03/programmers_여행경로.java) | △    |
 
   
+
+## SW Expert Academy
+
+> 내가 작성한 java 코드만
+>
+> pdf 형식으로 문제를 예제로 제공하고 있기 때문에 내 코드에 문제에 대한 정보를 주석으로 작성
+
+- [Gravity](./SW_Expert_Academy/SW_Expert_Academy_Gravity.java)
