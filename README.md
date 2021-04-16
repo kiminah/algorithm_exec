@@ -56,3 +56,10 @@
 
 - [Postfix](./SW_Expert_Academy/SW_Expert_Academy_postfix.java)
   - postfix 형태 출력 완성 (계산은 안함)
+
+
+
+## Backjoon
+
+- [구슬 탈출2](./backjoon/backjoon_구슬탈출2.java)
+  - 문제 링크 https://www.acmicpc.net/problem/13460
