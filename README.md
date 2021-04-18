@@ -36,6 +36,7 @@
   | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [programmers_스킬트리.java](./programmers_level_02/programmers_스킬트리.java) | O    |
   | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [programmers_다리를_지나는_트럭.java](./programmers_level_02/programmers_다리를_지나는_트럭.java) | △    |
   | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [programmers_기능개발.java](./programmers_level_02/programmers_기능개발.java) | O    |
+  | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [programmers_주식가격.java](./programmers_level_02/programmers_주식가격.java) | O    |
 
 * level_03
 
