@@ -64,5 +64,8 @@
 
 ## Backjoon
 
-- [구슬 탈출2](./backjoon/backjoon_구슬탈출2.java)
-  - 문제 링크 https://www.acmicpc.net/problem/13460
+| 문제                                                | 파일 이름                                                    | 상태 |
+| --------------------------------------------------- | ------------------------------------------------------------ | ---- |
+| [구슬 탈출2](https://www.acmicpc.net/problem/13460) | [backjoon_구슬탈출2.java](./backjoon/backjoon_구슬탈출2.java) | X    |
+| [치킨배달](https://www.acmicpc.net/problem/15686)   | [backjoon_치킨배달.java](./backjoon/backjoon_치킨배달.java)  | △    |
+
