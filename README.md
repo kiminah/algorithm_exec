@@ -64,9 +64,11 @@
 
 ## Backjoon
 
-| 문제                                                | 파일 이름                                                    | 상태 |
-| --------------------------------------------------- | ------------------------------------------------------------ | ---- |
-| [구슬 탈출2](https://www.acmicpc.net/problem/13460) | [backjoon_구슬탈출2.java](./backjoon/backjoon_구슬탈출2.java) | X    |
-| [치킨배달](https://www.acmicpc.net/problem/15686)   | [backjoon_치킨배달.java](./backjoon/backjoon_치킨배달.java)  | △    |
-| [미세먼지](https://www.acmicpc.net/problem/17144)   | [backjoon_미세먼지.java](./backjoon/backjoon_미세먼지.java)  | △    |
+| 문제                                                         | 파일 이름                                                    | 상태 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [구슬 탈출2](https://www.acmicpc.net/problem/13460)          | [backjoon_구슬탈출2.java](./backjoon/backjoon_구슬탈출2.java) | X    |
+| [치킨배달](https://www.acmicpc.net/problem/15686)            | [backjoon_치킨배달.java](./backjoon/backjoon_치킨배달.java)  | △    |
+| [미세먼지](https://www.acmicpc.net/problem/17144)            | [backjoon_미세먼지.java](./backjoon/backjoon_미세먼지.java)  | △    |
+| [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [backjoon_마법사상어와_토네이도.java](./backjoon/backjoon_마법사상어와_토네이도.java) | X    |
+| [퇴사](https://www.acmicpc.net/problem/14501)                | [backjoon_퇴사.java](./backjoon/backjoon_퇴사.java)          | △    |
 
