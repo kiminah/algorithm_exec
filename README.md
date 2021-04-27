@@ -71,7 +71,15 @@
 | [미세먼지](https://www.acmicpc.net/problem/17144)            | [backjoon_미세먼지.java](./backjoon/backjoon_미세먼지.java)  | △    |
 | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [backjoon_마법사상어와_토네이도.java](./backjoon/backjoon_마법사상어와_토네이도.java) | X    |
 | [퇴사](https://www.acmicpc.net/problem/14501)                | [backjoon_퇴사.java](./backjoon/backjoon_퇴사.java)          | △    |
-| [섬의 개수](https://www.acmicpc.net/problem/4963)            | [backjoon4963_BFS.java](./backjoon/backjoon4963_BFS.java)    | O    |
 |                                                              |                                                              |      |
 |                                                              |                                                              |      |
+|                                                              |                                                              |      |
+
+- 옛날 문제
+
+| 문제                                              | 파일 이름                                                  | 상태 |
+| ------------------------------------------------- | ---------------------------------------------------------- | ---- |
+| [섬의 개수](https://www.acmicpc.net/problem/4963) | [backjoon4963_BFS.java](./past_exec/backjoon4963_BFS.java) | O    |
+| [토마토](https://www.acmicpc.net/problem/7576)    | [backjoon7576_BFS.java](./past_exec/backjoon7576_BFS.java) | O    |
+|                                                   |                                                            |      |
 
