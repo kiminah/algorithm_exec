@@ -77,9 +77,9 @@
 
 - 옛날 문제
 
-| 문제                                              | 파일 이름                                                  | 상태 |
-| ------------------------------------------------- | ---------------------------------------------------------- | ---- |
-| [섬의 개수](https://www.acmicpc.net/problem/4963) | [backjoon4963_BFS.java](./past_exec/backjoon4963_BFS.java) | O    |
-| [토마토](https://www.acmicpc.net/problem/7576)    | [backjoon7576_BFS.java](./past_exec/backjoon7576_BFS.java) | O    |
-|                                                   |                                                            |      |
+| 문제                                                     | 파일 이름                                                    | 상태 |
+| -------------------------------------------------------- | ------------------------------------------------------------ | ---- |
+| [섬의 개수](https://www.acmicpc.net/problem/4963)        | [backjoon4963_BFS.java](./past_exec/backjoon4963_BFS.java)   | O    |
+| [토마토](https://www.acmicpc.net/problem/7576)           | [backjoon7576_BFS.java](./past_exec/backjoon7576_BFS.java)   | O    |
+| [연결요소의 개수](https://www.acmicpc.net/problem/11724) | [backjoon11724_DFS.java](./past_exec/backjoon11724_DFS.java) | O    |
 
