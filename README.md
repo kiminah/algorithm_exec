@@ -71,7 +71,7 @@
 | [미세먼지](https://www.acmicpc.net/problem/17144)            | [backjoon_미세먼지.java](./backjoon/backjoon_미세먼지.java)  | △    |
 | [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [backjoon_마법사상어와_토네이도.java](./backjoon/backjoon_마법사상어와_토네이도.java) | X    |
 | [퇴사](https://www.acmicpc.net/problem/14501)                | [backjoon_퇴사.java](./backjoon/backjoon_퇴사.java)          | △    |
-|                                                              |                                                              |      |
+| [아기상어](https://www.acmicpc.net/problem/16236)            | [backjoon_아기상어.java](./backjoon/backjoon_아기상어.java)  | X    |
 |                                                              |                                                              |      |
 |                                                              |                                                              |      |
 
