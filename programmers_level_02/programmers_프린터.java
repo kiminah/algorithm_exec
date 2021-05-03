@@ -1,45 +1,48 @@
 import java.util.*;
 class Solution {
-    Queue<Integer> q;
+    Queue<Printer> q;
     public int solution(int[] priorities, int location) {
         int answer = 0;
         q = new LinkedList<>();
         
+        // 큐에 인쇄 목록 담기
         for(int i=0; i<priorities.length; i++){
-            q.add(priorities[i]);
+            q.add(new Printer(i, priorities[i]));
         }
         
-        int loc = 0;
-        int cnt = 0;
-        int result = -1;
-        while(result != location){
-            int first = q.poll();
+        // 인쇄목록 비어있을때까지 반복
+        while(!q.isEmpty()){
+            Printer doc = q.poll(); // 첫번째 작업
             
-            int index = 1;
             boolean flag = false;
-            if(q.size()>1){
-                while(index < priorities.length){
-                    int tmp = q.poll();
-                    if(first < tmp){
-                        flag = true;
-                    }
-                    q.add(tmp);
-                    index++;
+            for(Printer p : q){
+                if(doc.prior < p.prior){ // 뒤에 중요도가 큰 작업이 있을 경우
+                    flag  = true;
                 }
             }
             
-            if(flag) q.add(first);
-            else{
-                ++cnt;
-                if(loc == location) result = loc;
+            if(flag) // 중요도가 큰 작업이 뒤에 있는 경우 현재 작업 뒤로 이동
+                q.add(doc);
+            else 
+            {
+                // 중요도가 가장 큰 작업이 현재 작업인 경우 큐에서 제거
+                // 요청한 문서의 순서 증가
+                answer++;
+                // 현재 작업과 요청한 문서의 위치가 같으면 반복문 종료
+                if(doc.location == location)
+                    break;
             }
-            loc++;
-            if(loc == q.size()) loc = 0;
-
         }
         
-        answer = cnt;
-        
         return answer;
+    }
+}
+class Printer{
+    int location;
+    int prior;
+    
+    Printer(int location, int prior){
+        this.location = location;
+        this.prior = prior;
     }
 }
