@@ -39,6 +39,7 @@
   | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [programmers_주식가격.java](./programmers_level_02/programmers_주식가격.java) | O    |
   | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [programmers_프린터.java](./programmers_level_02/programmers_프린터.java) | X    |
   | [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899#) | [programmers_124world.java](./programmers_level_02/programmers_124world.java) | △    |
+  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [programmers_프린터.java](./programmers_level_02/programmers_프린터.java) | O    |
 
 * level_03
 
