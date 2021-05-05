@@ -41,6 +41,7 @@
   | [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899#) | [programmers_124world.java](./programmers_level_02/programmers_124world.java) | △    |
   | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [programmers_프린터.java](./programmers_level_02/programmers_프린터.java) | O    |
   | [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [programmers_오픈채팅방.java](./programmers_level_02/programmers_오픈채팅방.java) | X    |
+  | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [programmers_문자열압축.java](./programmers_level_02/programmers_문자열압축.java) | △    |
 
 * level_03
 
