@@ -42,6 +42,13 @@
   | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [programmers_프린터.java](./programmers_level_02/programmers_프린터.java) | O    |
   | [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [programmers_오픈채팅방.java](./programmers_level_02/programmers_오픈채팅방.java) | X    |
   | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [programmers_문자열압축.java](./programmers_level_02/programmers_문자열압축.java) | △    |
+  | [보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258) | [programmers_보석쇼핑.java](./programmers_level_02/programmers_보석쇼핑.java) | ☆    |
+  | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [programmers_키패드.java](./programmers_level_02/programmers_키패드.java) | ☆    |
+  | [수식최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [programmers_수식최대화.java](./programmers_level_02/programmers_수식최대화.java) | ☆    |
+  |                                                              |                                                              |      |
+  |                                                              |                                                              |      |
+  |                                                              |                                                              |      |
+  |                                                              |                                                              |      |
 
 * level_03
 
