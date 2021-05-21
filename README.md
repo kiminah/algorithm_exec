@@ -27,6 +27,7 @@
   | [문자열 다루기 기본](https://programmers.co.kr/learn/courses/30/lessons/12918) | [programmers_String_basic.java]((./programmers_level_01/programmers_String_basic.java)) | O    |
   | [비밀지도](https://programmers.co.kr/learn/courses/30/lessons/17681) | [programmers_비밀지도.java](./programmers_level_01/programmers_비밀지도.java) | △    |
   | [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | [programmers_폰켓몬.java](./programmers_level_01/programmers_폰켓몬.java) | O    |
+  | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | [programmers_내적.java](./programmers_level_01/programmers_내적.java) | O    |
 
 * level_02
 
