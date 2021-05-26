@@ -29,6 +29,7 @@
   | [폰켓몬](https://programmers.co.kr/learn/courses/30/lessons/1845) | [programmers_폰켓몬.java](./programmers_level_01/programmers_폰켓몬.java) | O    |
   | [내적](https://programmers.co.kr/learn/courses/30/lessons/70128) | [programmers_내적.java](./programmers_level_01/programmers_내적.java) | O    |
   | [음양 더하기](https://programmers.co.kr/learn/courses/30/lessons/76501) | [programmers_음양더하기.java](./programmers_level_01/programmers_음양더하기.java) | O    |
+  | [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) | [programmers_실패율.java](./programmers_level_01/programmers_실패율.java) | O    |
 
   
 
