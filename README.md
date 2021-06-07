@@ -56,7 +56,7 @@
   | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [programmers_키패드.java](./programmers_level_02/programmers_키패드.java) | ☆              |
   | [수식최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [programmers_수식최대화.java](./programmers_level_02/programmers_수식최대화.java) | ☆              |
   | [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [programmers_짝지어제거하기.java](./programmers_level_02/programmers_짝지어제거하기.java) | △(효율성 문제) |
-  |                                                              |                                                              |                |
+  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [programmers_순위검색.java](./programmers_level_02/programmers_순위검색.java) | △(효율성 문제) |
   |                                                              |                                                              |                |
   |                                                              |                                                              |                |
 
