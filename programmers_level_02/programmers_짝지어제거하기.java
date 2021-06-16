@@ -3,21 +3,25 @@ class Solution
 {
     public int solution(String s)
     {
-        int answer = 0;
+        // 문자열 담을 스택
+        Stack<Character> st = new Stack<>();
         
-        int start = 0;
-        while(start != s.length()-1){
-            // 문자가 모두 제거되면 1 반환
-            if(s.length()==0) return 1;
-            if(s.charAt(start)==s.charAt(start+1)){
-                // 문자열 제거 후 앞뒤 문자열 이어 붙이기
-                s=s.substring(0,start)+s.substring(start+2,s.length());
-                // 처음부터 다시 시작
-                start = 0;
-            }else{
-                start++;
-            }
+        // 1. 첫 문자는 미리 담고 반복문 실행
+        st.push(s.charAt(0));
+        int idx = 1;
+        while(idx != s.length()){
+            
+            // 1-1. 스택이 비어 있거나 문자열이 다른 경우 스택에 추가
+            if(st.size() == 0 || st.peek() != s.charAt(idx)) st.push(s.charAt(idx));
+            
+            // 1-2. 스택 상단문자와 현재 문자가 같은 경우
+            //      스택 상단 문자 제거
+            else st.pop();
+            idx++;
         }
-        return answer;
+        
+        // 스택 크기에 따른 결과 반환
+        if(st.size() == 0) return 1;
+        else return 0;
     }
 }
