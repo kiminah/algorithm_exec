@@ -67,6 +67,7 @@
   | [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [programmers_카카오프렌즈_컬러링북.java](./programmers_level_02/programmers_카카오프렌즈_컬러링북.java) | O                       |
   | [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [programmers_행렬테두리회전하기.java](./programmers_level_02/programmers_행렬테두리회전하기.java) | O                       |
   | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [programmers_소수찾기.java](./programmers_level_02/programmers_소수찾기.java) | △(테케 2,10,11,12 실패) |
+  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [programmers_게임맵최단거리.java](./programmers_level_02/programmers_게임맵최단거리.java) | O                       |
 
 * level_03
 
