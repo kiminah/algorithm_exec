@@ -68,6 +68,7 @@
   | [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [programmers_행렬테두리회전하기.java](./programmers_level_02/programmers_행렬테두리회전하기.java) | O                       |
   | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [programmers_소수찾기.java](./programmers_level_02/programmers_소수찾기.java) | △(테케 2,10,11,12 실패) |
   | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [programmers_게임맵최단거리.java](./programmers_level_02/programmers_게임맵최단거리.java) | O                       |
+  | [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [programmers_배달.java](./programmers_level_02/programmers_배달.java) | △(테케 32 실패)         |
 
 * level_03
 
