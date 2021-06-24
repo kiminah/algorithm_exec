@@ -70,6 +70,7 @@
   | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [programmers_게임맵최단거리.java](./programmers_level_02/programmers_게임맵최단거리.java) | O                       |
   | [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [programmers_배달.java](./programmers_level_02/programmers_배달.java) | △(테케 32 실패)         |
   | [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [programmers_영어끝말잇기.java](./programmers_level_02/programmers_영어끝말잇기.java) | X (다시 풀어야 함)      |
+  | [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945) | [programmers_피보나치수.java](./programmers_level_02/programmers_피보나치수.java) | O                       |
 
 * level_03
 
