@@ -1,35 +1,25 @@
 import java.util.*;
 class Solution {
-    Map<Character, Integer> map;
-    int[] arr;
     public int solution(String name) {
         int answer = 0;
-        arr = new int[name.length()];
-        map = new HashMap<>();
-        int idx = 0;
         
-        // 1. 알파벳 배열
-        for(char c='A'; c<='Y'; c++)
-            map.put(c,idx++);
-        map.put('Z',1);
+        int len = name.length();
+        int min_move = len - 1;
         
-        // 2. 조이스틱 이동
-        arr[0] = map.get(name.charAt(0));
-        char prev = name.charAt(0);
-        for(int i=1; i<name.length(); i++){
-            char next = name.charAt(i);
-            if(prev != next){
-                if(map.get(prev) > map.get(next)){
-                    arr[i] = arr[i-1]+map.get(next)+1;
-                }
-                else{
-                    arr[i] = arr[i-1] + map.get(next)-map.get(prev);
-                }
-            }
-            prev = next;
+        for(int i=0; i<len; i++){
+            // 1. 상하
+            //    A...I 'M' N...Z
+            if(name.charAt(i)<='M') answer += name.charAt(i) - 'A';
+            else answer += 'Z'-name.charAt(i)+1;
+            
+            // 2. 좌우
+            int next = i+1;
+            while(next < len && name.charAt(next)=='A') ++next;
+            min_move = Math.min(min_move, i+len-next+Math.min(i, len-next));
         }
-        answer = arr[name.length()-1];
-       
+        
+        answer += min_move;
+        
         return answer;
     }
    
