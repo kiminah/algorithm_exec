@@ -110,6 +110,7 @@
 | [피보나치 수 2](https://www.acmicpc.net/problem/2748)        | [backjoon_피보나치수2.java](./backjoon/backjoon_피보나치수2.java) | O    |
 | [피보나치 수 3](https://www.acmicpc.net/problem/2749)        | [backjoon_피보나치수3.java](./backjoon/backjoon_피보나치수3.java) | ☆    |
 | [평범한 배낭](https://www.acmicpc.net/problem/12865)         | [backjoon_평범한배낭.java](./backjoon/backjoon_평범한배낭.java) | O    |
+| [가운데를 말해요](https://www.acmicpc.net/problem/1655)      | [backjoon_가운데를_말해요.java](./backjoon/backjoon_가운데를_말해요.java) | ☆    |
 
 - 옛날 문제
 
