@@ -55,18 +55,15 @@ class Solution {
             // 3. 간격이 조건에 만족하는지 확인
             //    하나의 조건이라도 만족하지 않는 경우 false 리턴
             if(p.op == '='){
-                if(num == p.num) flag = true;
-                else return false;
+                if(num != p.num) return false;
             }
             
             else if(p.op == '>'){
-                if(num > p.num)  flag = true;
-                else return false;
+                if(num <= p.num) return false;
             }
             
             else if (p.op == '<'){
-                if(num < p.num) flag = true;
-                else return false;
+                if(num >= p.num) return false;
             }
         }
         return true;
