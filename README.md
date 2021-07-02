@@ -73,6 +73,7 @@
   | [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945) | [programmers_피보나치수.java](./programmers_level_02/programmers_피보나치수.java) | O               |
   | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [programmers_조이스틱.java](./programmers_level_02/programmers_조이스틱.java) | ☆               |
   | [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | [programmers_숫자의표현.java](./programmers_level_02/programmers_숫자의표현.java) | O               |
+  | [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [programmers_단체사진찍기.java](./programmers_level_02/programmers_단체사진찍기.java) | O               |
 
 * level_03
 
