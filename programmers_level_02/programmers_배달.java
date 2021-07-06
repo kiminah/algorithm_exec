@@ -12,18 +12,15 @@ class Solution {
         
         // 1. 맵 만들기
         for(int i=0; i<road.length; i++){
-            int[] root = road[i];
-            if(map[root[0]][root[1]]>0){
-                map[root[0]][root[1]] = map[root[1]][root[0]] = Math.min(map[root[0]][root[1]], root[2]);
-            }else{
-                map[root[0]][root[1]] = map[root[1]][root[0]] = root[2];
-            }
+            if(map[road[i][0]][road[i][1]]>0 && map[road[i][0]][road[i][1]]<road[i][2])
+                continue;
+            else
+                map[road[i][0]][road[i][1]] = map[road[i][1]][road[i][0]] = road[i][2];
+            
         }
         
         // 2. 각 마을별 시간 최대로 설정
-        for(int i=2; i<=N;i++){
-            cost[i] = Integer.MAX_VALUE;
-        }
+        Arrays.fill(cost, Integer.MAX_VALUE);
         
         dfs(map, N, K, 1, 0);
         
