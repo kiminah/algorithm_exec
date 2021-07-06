@@ -76,6 +76,7 @@
   | [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [programmers_단체사진찍기.java](./programmers_level_02/programmers_단체사진찍기.java) | O               |
   | [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | [programmers_최댓값과최솟값.java](./programmers_level_02/programmers_최댓값과최솟값.java) | O               |
   | [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | [programmers_다음큰숫자.java](./programmers_level_02/programmers_다음큰숫자.java) | O               |
+  | [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | [programmers_JadenCase.java](./programmers_level_02/programmers_JadenCase.java) | O               |
 
 * level_03
 
