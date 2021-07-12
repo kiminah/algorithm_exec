@@ -44,41 +44,42 @@
 
 * level_02
 
-  | 문제                                                         | 파일 이름                                                    | 상태            |
-  | ------------------------------------------------------------ | ------------------------------------------------------------ | --------------- |
-  | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | [programmers_Greedy_big_num.java](./programmers_level_02/programmers_Greedy_big_num.java) | O               |
-  | [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [programmers_Greedy_구명보트.java](./programmers_level_02/programmers_Greedy_구명보트.java) | O               |
-  | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [programmers_타겟_넘버.java](./programmers_level_02/programmers_타겟_넘버.java) | O               |
-  | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [programmers_스킬트리.java](./programmers_level_02/programmers_스킬트리.java) | O               |
-  | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [programmers_다리를_지나는_트럭.java](./programmers_level_02/programmers_다리를_지나는_트럭.java) | △               |
-  | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [programmers_기능개발.java](./programmers_level_02/programmers_기능개발.java) | O               |
-  | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [programmers_주식가격.java](./programmers_level_02/programmers_주식가격.java) | O               |
-  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [programmers_프린터.java](./programmers_level_02/programmers_프린터.java) | X               |
-  | [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899#) | [programmers_124world.java](./programmers_level_02/programmers_124world.java) | △               |
-  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [programmers_프린터.java](./programmers_level_02/programmers_프린터.java) | O               |
-  | [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [programmers_오픈채팅방.java](./programmers_level_02/programmers_오픈채팅방.java) | X               |
-  | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [programmers_문자열압축.java](./programmers_level_02/programmers_문자열압축.java) | △               |
-  | [보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258) | [programmers_보석쇼핑.java](./programmers_level_02/programmers_보석쇼핑.java) | ☆               |
-  | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [programmers_키패드.java](./programmers_level_02/programmers_키패드.java) | ☆               |
-  | [수식최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [programmers_수식최대화.java](./programmers_level_02/programmers_수식최대화.java) | ☆               |
-  | [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [programmers_짝지어제거하기.java](./programmers_level_02/programmers_짝지어제거하기.java) | O               |
-  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [programmers_순위검색.java](./programmers_level_02/programmers_순위검색.java) | △(효율성 문제)  |
-  | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [programmers_더맵게.java](./programmers_level_02/programmers_더맵게.java) | O               |
-  | [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [programmers_카카오프렌즈_컬러링북.java](./programmers_level_02/programmers_카카오프렌즈_컬러링북.java) | O               |
-  | [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [programmers_행렬테두리회전하기.java](./programmers_level_02/programmers_행렬테두리회전하기.java) | O               |
-  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [programmers_소수찾기.java](./programmers_level_02/programmers_소수찾기.java) | O               |
-  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [programmers_게임맵최단거리.java](./programmers_level_02/programmers_게임맵최단거리.java) | O               |
-  | [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [programmers_배달.java](./programmers_level_02/programmers_배달.java) | △(테케 32 실패) |
-  | [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [programmers_영어끝말잇기.java](./programmers_level_02/programmers_영어끝말잇기.java) | O               |
-  | [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945) | [programmers_피보나치수.java](./programmers_level_02/programmers_피보나치수.java) | O               |
-  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [programmers_조이스틱.java](./programmers_level_02/programmers_조이스틱.java) | ☆               |
-  | [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | [programmers_숫자의표현.java](./programmers_level_02/programmers_숫자의표현.java) | O               |
-  | [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [programmers_단체사진찍기.java](./programmers_level_02/programmers_단체사진찍기.java) | O               |
-  | [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | [programmers_최댓값과최솟값.java](./programmers_level_02/programmers_최댓값과최솟값.java) | O               |
-  | [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | [programmers_다음큰숫자.java](./programmers_level_02/programmers_다음큰숫자.java) | O               |
-  | [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | [programmers_JadenCase.java](./programmers_level_02/programmers_JadenCase.java) | O               |
-  | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | [programmers_괄호회전하기.java](./programmers_level_02/programmers_괄호회전하기.java) | O               |
-  | [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | [programmers_최솟값만들기.java](./programmers_level_02/programmers_최솟값만들기.java) | O               |
+  | 문제                                                         | 파일 이름                                                    | 상태                                            |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ----------------------------------------------- |
+  | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883) | [programmers_Greedy_big_num.java](./programmers_level_02/programmers_Greedy_big_num.java) | O                                               |
+  | [구명보트](https://programmers.co.kr/learn/courses/30/lessons/42885) | [programmers_Greedy_구명보트.java](./programmers_level_02/programmers_Greedy_구명보트.java) | O                                               |
+  | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165) | [programmers_타겟_넘버.java](./programmers_level_02/programmers_타겟_넘버.java) | O                                               |
+  | [스킬트리](https://programmers.co.kr/learn/courses/30/lessons/49993) | [programmers_스킬트리.java](./programmers_level_02/programmers_스킬트리.java) | O                                               |
+  | [다리를 지나는 트럭](https://programmers.co.kr/learn/courses/30/lessons/42583) | [programmers_다리를_지나는_트럭.java](./programmers_level_02/programmers_다리를_지나는_트럭.java) | △                                               |
+  | [기능개발](https://programmers.co.kr/learn/courses/30/lessons/42586) | [programmers_기능개발.java](./programmers_level_02/programmers_기능개발.java) | O                                               |
+  | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584) | [programmers_주식가격.java](./programmers_level_02/programmers_주식가격.java) | O                                               |
+  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [programmers_프린터.java](./programmers_level_02/programmers_프린터.java) | X                                               |
+  | [124 나라의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12899#) | [programmers_124world.java](./programmers_level_02/programmers_124world.java) | △                                               |
+  | [프린터](https://programmers.co.kr/learn/courses/30/lessons/42587) | [programmers_프린터.java](./programmers_level_02/programmers_프린터.java) | O                                               |
+  | [오픈채팅방](https://programmers.co.kr/learn/courses/30/lessons/42888) | [programmers_오픈채팅방.java](./programmers_level_02/programmers_오픈채팅방.java) | X                                               |
+  | [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) | [programmers_문자열압축.java](./programmers_level_02/programmers_문자열압축.java) | △                                               |
+  | [보석쇼핑](https://programmers.co.kr/learn/courses/30/lessons/67258) | [programmers_보석쇼핑.java](./programmers_level_02/programmers_보석쇼핑.java) | ☆                                               |
+  | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [programmers_키패드.java](./programmers_level_02/programmers_키패드.java) | ☆                                               |
+  | [수식최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [programmers_수식최대화.java](./programmers_level_02/programmers_수식최대화.java) | ☆                                               |
+  | [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [programmers_짝지어제거하기.java](./programmers_level_02/programmers_짝지어제거하기.java) | O                                               |
+  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [programmers_순위검색.java](./programmers_level_02/programmers_순위검색.java) | △(효율성 문제)                                  |
+  | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [programmers_더맵게.java](./programmers_level_02/programmers_더맵게.java) | O                                               |
+  | [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [programmers_카카오프렌즈_컬러링북.java](./programmers_level_02/programmers_카카오프렌즈_컬러링북.java) | O                                               |
+  | [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [programmers_행렬테두리회전하기.java](./programmers_level_02/programmers_행렬테두리회전하기.java) | O                                               |
+  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839) | [programmers_소수찾기.java](./programmers_level_02/programmers_소수찾기.java) | O                                               |
+  | [게임 맵 최단거리](https://programmers.co.kr/learn/courses/30/lessons/1844) | [programmers_게임맵최단거리.java](./programmers_level_02/programmers_게임맵최단거리.java) | O                                               |
+  | [배달](https://programmers.co.kr/learn/courses/30/lessons/12978) | [programmers_배달.java](./programmers_level_02/programmers_배달.java) | △(테케 32 실패)                                 |
+  | [영어 끝말잇기](https://programmers.co.kr/learn/courses/30/lessons/12981) | [programmers_영어끝말잇기.java](./programmers_level_02/programmers_영어끝말잇기.java) | O                                               |
+  | [피보나치 수](https://programmers.co.kr/learn/courses/30/lessons/12945) | [programmers_피보나치수.java](./programmers_level_02/programmers_피보나치수.java) | O                                               |
+  | [조이스틱](https://programmers.co.kr/learn/courses/30/lessons/42860) | [programmers_조이스틱.java](./programmers_level_02/programmers_조이스틱.java) | ☆                                               |
+  | [숫자의 표현](https://programmers.co.kr/learn/courses/30/lessons/12924) | [programmers_숫자의표현.java](./programmers_level_02/programmers_숫자의표현.java) | O                                               |
+  | [단체사진 찍기](https://programmers.co.kr/learn/courses/30/lessons/1835) | [programmers_단체사진찍기.java](./programmers_level_02/programmers_단체사진찍기.java) | O                                               |
+  | [최댓값과 최솟값](https://programmers.co.kr/learn/courses/30/lessons/12939) | [programmers_최댓값과최솟값.java](./programmers_level_02/programmers_최댓값과최솟값.java) | O                                               |
+  | [다음 큰 숫자](https://programmers.co.kr/learn/courses/30/lessons/12911) | [programmers_다음큰숫자.java](./programmers_level_02/programmers_다음큰숫자.java) | O                                               |
+  | [JadenCase 문자열 만들기](https://programmers.co.kr/learn/courses/30/lessons/12951) | [programmers_JadenCase.java](./programmers_level_02/programmers_JadenCase.java) | O                                               |
+  | [괄호 회전하기](https://programmers.co.kr/learn/courses/30/lessons/76502) | [programmers_괄호회전하기.java](./programmers_level_02/programmers_괄호회전하기.java) | O                                               |
+  | [최솟값 만들기](https://programmers.co.kr/learn/courses/30/lessons/12941) | [programmers_최솟값만들기.java](./programmers_level_02/programmers_최솟값만들기.java) | O                                               |
+  | [튜플](https://github.com/kiminah)                           | [programmers_튜플.java](./programmers_level_02/programmers_튜플.java) | △<br />(다른 사람이 푼 코드가 효율성이 더 높다) |
 
 * level_03
 
