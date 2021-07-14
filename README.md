@@ -39,7 +39,8 @@
   | [다트 게임](https://programmers.co.kr/learn/courses/30/lessons/17682) | [programmers_다트게임.java](./programmers_level_01/programmers_다트게임.java) | O    |
   | [약수의 개수와 덧셈](https://programmers.co.kr/learn/courses/30/lessons/77884) | [programmers_약수이개수와덧셈.java](./programmers_level_01/programmers_약수의개수와덧셈.java) | O    |
   | [3진법 뒤집기](https://programmers.co.kr/learn/courses/30/lessons/68935) | [programmers_3진법뒤집기.java](./programmers_level_01/programmers_3진법뒤집기.java) | O    |
-  | [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916) | [programmers_문자열낼p와y의개수.java](./programmers_level_01/programmers_문자열낼p와y의개수.java) | O    |
+  | [문자열 내 p와 y의 개수](https://programmers.co.kr/learn/courses/30/lessons/12916) | [programmers_문자열내p와y의개수.java](./programmers_level_01/programmers_문자열내p와y의개수.java) | O    |
+  | [직사각형 별찍기](https://programmers.co.kr/learn/courses/30/lessons/12969) | [programmers_직사각형별찍기.java](./programmers_level_01/programmers_직사각형별찍기.java) | O    |
 
   
 
