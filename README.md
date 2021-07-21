@@ -44,6 +44,7 @@
   | [행렬의 덧셈](https://programmers.co.kr/learn/courses/30/lessons/12950) | [programmers_행렬의덧셈.java](./programmers_level_01/programmers_행렬의덧셈.java) | O    |
   | [소수 만들기](https://programmers.co.kr/learn/courses/30/lessons/12977) | [programmers_소수만들기.java](./programmers_level_01/programmers_소수만들기.java) | O    |
   | [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954) | [programmers_x만큼간격이 있는_n개의숫자.java](./programmers_level_01/programmers_x만큼간격이 있는_n개의숫자.java) | O    |
+  | [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947) | [programmers_하샤드수.java](./programmers_level_01/programmers_하샤드수.java) | O    |
 
   
 
