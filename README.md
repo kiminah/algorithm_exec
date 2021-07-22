@@ -46,6 +46,7 @@
   | [x만큼 간격이 있는 n개의 숫자](https://programmers.co.kr/learn/courses/30/lessons/12954) | [programmers_x만큼간격이 있는_n개의숫자.java](./programmers_level_01/programmers_x만큼간격이 있는_n개의숫자.java) | O    |
   | [하샤드 수](https://programmers.co.kr/learn/courses/30/lessons/12947) | [programmers_하샤드수.java](./programmers_level_01/programmers_하샤드수.java) | O    |
   | [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | [programmers_숫자문자열과영단어.java](./programmers_level_01/programmers_숫자문자열과영단어.java) | O    |
+  | [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | [programmers_같은숫자는싫어.java](./programmers_level_01/programmers_같은숫자는싫어.java) | O    |
 
   
 
