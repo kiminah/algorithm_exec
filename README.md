@@ -48,6 +48,7 @@
   | [숫자 문자열과 영단어](https://programmers.co.kr/learn/courses/30/lessons/81301) | [programmers_숫자문자열과영단어.java](./programmers_level_01/programmers_숫자문자열과영단어.java) | O    |
   | [같은 숫자는 싫어](https://programmers.co.kr/learn/courses/30/lessons/12906) | [programmers_같은숫자는싫어.java](./programmers_level_01/programmers_같은숫자는싫어.java) | O    |
   | [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484) | [programmers_로또의_최고순위와_최저순위.java](./programmers_level_01/programmers_로또의_최고순위와_최저순위.java) | O    |
+  | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [programmers_예산.java](./programmers_level_01/programmers_예산.java) | O    |
 
   
 
