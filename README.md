@@ -50,6 +50,7 @@
   | [로또의 최고 순위와 최저 순위](https://programmers.co.kr/learn/courses/30/lessons/77484) | [programmers_로또의_최고순위와_최저순위.java](./programmers_level_01/programmers_로또의_최고순위와_최저순위.java) | O    |
   | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [programmers_예산.java](./programmers_level_01/programmers_예산.java) | O    |
   | [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901) | [programmers_2016년.java](./programmers_level_01/programmers_2016년.java) | O    |
+  | [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910) | [programmers_나누어떨어지는_숫자배열.java](./programmers_level_01/programmers_나누어떨어지는_숫자배열.java) | O    |
 
   
 
