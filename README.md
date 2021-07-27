@@ -94,6 +94,9 @@
   | [튜플](https://github.com/kiminah)                           | [programmers_튜플.java](./programmers_level_02/programmers_튜플.java) | △<br />(다른 사람이 푼 코드가 효율성이 더 높다) |
   | [올바른 괄호](https://programmers.co.kr/learn/courses/30/lessons/12909) | [programmers_올바른괄호.java](./programmers_level_02/programmers_올바른괄호.java) | O                                               |
   | [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) | [programmers_땅따먹기.java](./programmers_level_02/programmers_땅따먹기.java) | ☆                                               |
+  | [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | [programmers_가장큰정사각형찾기.java](./programmers_level_02/programmers_가장큰정사각형찾기.java) | ☆                                               |
+
+  
 
 * level_03
 
