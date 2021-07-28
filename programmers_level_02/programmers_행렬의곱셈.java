@@ -9,7 +9,7 @@ class Solution {
                 }
             }
         }
-        
+    
         return answer;
     }
 }
