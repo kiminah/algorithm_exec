@@ -99,6 +99,7 @@
   | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | [programmers_카펫.java](./programmers_level_02/programmers_카펫.java) | O                                               |
   | [N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | [programmers_N개의최소공배수.java](./programmers_level_02/programmers_N개의최소공배수.java) | O*                                              |
   | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [programmers_괄호변환.java](./programmers_level_02/programmers_괄호변환.java) | △<br />(구현,재귀 약함..)                       |
+  | [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | [programmers_방문길이.java](./programmers_level_02/programmers_방문길이.java) | O                                               |
 
   
 
