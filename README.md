@@ -111,6 +111,16 @@
   | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [programmers_단어변환.java](./programmers_level_03/programmers_단어변환.java) | △    |
   | [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [programmers_여행경로.java](./programmers_level_03/programmers_여행경로.java) | △    |
 
+
+
+
+- Weekly Challenge
+
+  | Week 문제                                                    | 파일 이름                                                    | 상태 |
+  | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+  | [1주차](https://programmers.co.kr/learn/courses/30/lessons/82612) | [programmers_week_01](./programmers_Weekly_Challenge/programmers_week_01) | O    |
+  |                                                              |                                                              |      |
+
   
 
 ## SW Expert Academy
