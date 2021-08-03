@@ -1,53 +1,55 @@
 import java.util.*;
 class Solution {
     int[][] map;
-    boolean[][] visit;
-    int[] cost;
+    int[][] cost;
+    int INF = 1000000000;
     public int solution(int N, int[][] road, int K) {
         int answer = 1;
         
         map = new int[N+1][N+1];
-        visit = new boolean[N+1][N+1];
-        cost = new int[N+1];
+        cost = new int[N+1][N+1];
         
-        // 1. 맵 만들기
+        // 1. 초기화
+        for(int i=1; i <= N; i++) {
+            for(int j=1; j <= N; j++) {
+                if(i == j) continue;
+                map[i][j] = INF;
+            }
+        }
+        
+        // 2. 맵 만들기
         for(int i=0; i<road.length; i++){
-            if(map[road[i][0]][road[i][1]]>0 && map[road[i][0]][road[i][1]]<road[i][2])
+            // 2-1. 마을을 연결한 도로가 2가지인 경우 최소값으로 설정
+            if(map[road[i][0]][road[i][1]] < INF && map[road[i][0]][road[i][1]]<road[i][2])
                 continue;
             else
                 map[road[i][0]][road[i][1]] = map[road[i][1]][road[i][0]] = road[i][2];
-            
         }
         
-        // 2. 각 마을별 시간 최대로 설정
-        Arrays.fill(cost, Integer.MAX_VALUE);
+        // 3. 이동시간 초기화
+        for(int i=0; i<map.length; i++){
+            cost[i] = map[i].clone();
+        }
         
-        dfs(map, N, K, 1, 0);
+        // 4. 플로이드 와샬 알고리즘 사용
+        // 4-1. 지나가는 지점
+        for(int k=1; k<=N; k++){
+            // 4-2. 출발 지점
+            for(int i=1; i<=N; i++){
+                // 4-3. 도착 지점
+                for(int j=1; j<=N; j++){
+                    // 최단 시간 저장
+                    cost[i][j] = Math.min(cost[i][j], cost[i][k] + cost[k][j]);
+                }
+            }
+        }
         
-        // 3. 각 마을별 거리가 K값 이하인 경우의 개수 count
-        //    마을 1은 count 되어 있는 상태이기 때문에 i를 2부터 시작
+        // 5. 배달 가능한 마을의 개수
         for(int i=2; i<=N; i++){
-            if(cost[i]<=K) answer++;
+            if(cost[1][i]<=K) answer++;
         }
         
         return answer;
     }
     
-    public void dfs(int[][] map, int N, int K, int start,int time){
-        // 1. 각 마을별 시간 cost 배열에 저장(최소값으로 저장)
-        cost[start] = Math.min(cost[start], time);
-        
-        // 2. 시간이 K를 넘으면 반환
-        if(time > K) return;
-        
-        // 3. 연결된 마을 방문(1에서 시작했으므로 2부터 시작)
-        for(int i=2; i<=N; i++){
-            if(map[start][i] >0 && !visit[start][i]){
-                visit[start][i] = visit[i][start] = true;
-                dfs(map, N, K, i, time + map[start][i]);
-                visit[start][i] = visit[i][start] = false;
-            }
-        }
-        
-    }
 }
