@@ -101,6 +101,7 @@
   | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [programmers_괄호변환.java](./programmers_level_02/programmers_괄호변환.java) | △<br />(구현,재귀 약함..)                       |
   | [방문 길이](https://programmers.co.kr/learn/courses/30/lessons/49994) | [programmers_방문길이.java](./programmers_level_02/programmers_방문길이.java) | O                                               |
   | [삼각 달팽이](https://programmers.co.kr/learn/courses/30/lessons/68645) | [programmers_삼각달팽이.java](./programmers_level_02/programmers_삼각달팽이.java) | O                                               |
+  | [뉴스 클러스터링](https://programmers.co.kr/learn/courses/30/lessons/17677) | [programmers_뉴스클러스터링.java](./programmers_level_02/programmers_뉴스클러스터링.java) | △<br />(테케 5 실패)                            |
 
   
 
