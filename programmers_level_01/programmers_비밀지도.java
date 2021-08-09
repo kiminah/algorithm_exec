@@ -16,16 +16,8 @@ class Solution {
             }
             
             // 부호화된 숫자를 암호화 시키기
-            String tmp = "";
-            for(int j=0; j<n; j++){
-                
-                if(answer[i].charAt(j) == '1'){
-                    tmp += "#";
-                }else{
-                    tmp += " ";
-                }
-            }
-            answer[i] = tmp;
+            answer[i] = answer[i].replaceAll("1", "#");
+            answer[i] = answer[i].replaceAll("0", " ");
         }
         
         return answer;
