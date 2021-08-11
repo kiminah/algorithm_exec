@@ -105,7 +105,7 @@
   | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746) | [programmers_가장큰수.java](./programmers_level_02/programmers_가장큰수.java) | O                                               |
   | [방금그곡](https://programmers.co.kr/learn/courses/30/lessons/17683) | [programmers_방금그곡.java](./programmers_level_02/programmers_방금그곡.java) | △                                               |
   | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [programmers_캐시.java](./programmers_level_02/programmers_캐시.java) | O                                               |
-  |                                                              |                                                              |                                                 |
+  | [이진 변환 반복하기](https://programmers.co.kr/learn/courses/30/lessons/70129) | [programmers_이진변환반복하기.java](./programmers_level_02/programmers_이진변환반복하기.java) | O                                               |
 
   
 
