@@ -107,7 +107,7 @@
   | [캐시](https://programmers.co.kr/learn/courses/30/lessons/17680) | [programmers_캐시.java](./programmers_level_02/programmers_캐시.java) | O                                               |
   | [이진 변환 반복하기](https://programmers.co.kr/learn/courses/30/lessons/70129) | [programmers_이진변환반복하기.java](./programmers_level_02/programmers_이진변환반복하기.java) | O                                               |
   | [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) | [programmers_2개이하로다른비트.java](./programmers_level_02/programmers_2개이하로다른비트.java) | △<br />(테케 10, 11 실패)                       |
-  |                                                              |                                                              |                                                 |
+  | [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | [programmers_후보키.java](./programmers_level_02/programmers_후보키.java) | △<br />(정확성: 82.1)                           |
 
   
 
