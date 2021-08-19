@@ -1,8 +1,8 @@
 import java.util.*;
 class Solution {
-    ArrayList<Integer> list;
+    ArrayList<Integer> tuple;
     Set<String> set;
-    ArrayList<String> al = new ArrayList<>();
+    ArrayList<String> unique = new ArrayList<>();
     
     public int solution(String[][] relation) {
         int len = relation[0].length;
@@ -11,60 +11,54 @@ class Solution {
         for(int i=0; i<len; i++){
             // 시작 컬럼
             for(int j=0; j<len; j++){
-                list = new ArrayList<>();
-                // 조합
-                con(relation, i+1, j);
+                tuple = new ArrayList<>();
+                combination(relation, i+1, j);
             }
-        }
-
-        boolean[] visit = new boolean[al.size()];
-        // 길이순으로 정렬
-        Collections.sort(al, (a,b)->{return a.length()-b.length();});
-        // 최소성
-        for(int i=0; i<al.size(); i++){
-            for(int j=i+1; j<al.size();){
-                if(al.get(j).contains(al.get(i))){
-                    al.remove(j);
-                }else j++;
-            }
-            
         }
         
-        return al.size();
+        Collections.sort(unique, (a,b)->{
+            return a.length()-b.length();
+        });
+        
+        for(int i=0; i<unique.size(); i++){
+            for(int j=i+1; j<unique.size();){
+                if(unique.get(j).contains(unique.get(i))){
+                    unique.remove(j);
+                }else j++;
+            }
+        }
+        
+        return unique.size();
     }
     
-    public void con(String[][] relation, int size, int start){
-        list.add(start);
-        if(list.size()==size){
-            // 유일성 확인
-            check_unique(relation);
+    public void combination(String[][] relation, int size, int start){
+        tuple.add(start);
+        if(tuple.size()==size){
+            if(check_unique(relation)){
+                String tmp = "";
+                for(Integer num : tuple){
+                    tmp += String.valueOf(num);
+                }
+                unique.add(tmp);
+            }
             return;
         }
         
         for(int i=start+1; i<relation[0].length; i++){
-            con(relation, size, i);
-            list.remove(list.size()-1);
+            combination(relation, size, i);
+            tuple.remove(tuple.size()-1);
         }
     }
     
-    public void check_unique(String[][] relation){
+    public boolean check_unique(String[][] relation){
         set = new HashSet<>();
         
         for(int i=0; i<relation.length; i++){
-            
             String tmp = "";
-            
-            for(Integer num : list)
+            for(Integer num : tuple)
                 tmp += relation[i][num];
-            if(!set.add(tmp)) return;
+            if(!set.add(tmp)) return false;
         }
-        
-        String tmp = "";
-        for(Integer num : list){
-            tmp += String.valueOf(num);
-        }
-
-        al.add(tmp);
+        return true;
     }
-    
 }
