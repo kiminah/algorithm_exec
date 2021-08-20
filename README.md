@@ -108,6 +108,7 @@
   | [이진 변환 반복하기](https://programmers.co.kr/learn/courses/30/lessons/70129) | [programmers_이진변환반복하기.java](./programmers_level_02/programmers_이진변환반복하기.java) | O                                               |
   | [2개 이하로 다른 비트](https://programmers.co.kr/learn/courses/30/lessons/77885) | [programmers_2개이하로다른비트.java](./programmers_level_02/programmers_2개이하로다른비트.java) | △                                               |
   | [후보키](https://programmers.co.kr/learn/courses/30/lessons/42890) | [programmers_후보키.java](./programmers_level_02/programmers_후보키.java) | △<br />(정확성: 82.1)                           |
+  | [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936) | [programmers_쿼드압축후개수세기.java](./programmers_level_02/programmers_쿼드압축후개수세기.java) | O                                               |
 
   
 
