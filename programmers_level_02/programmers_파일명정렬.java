@@ -14,7 +14,6 @@ class Solution {
                 if(c>='0' && c<='9'){
                     number += c;
                     flag = true;
-                    if(number.length()==5){index++; break;}
                 }
                 else{
                     if(flag) break;
@@ -41,7 +40,7 @@ class Solution {
             // 2) number 기준 정렬
             int an=Integer.valueOf(a.number),bn=Integer.valueOf(b.number);
             if(an != bn) return an-bn;
-            
+
             // 3) 원래 입력 순
             return 0;
         });
