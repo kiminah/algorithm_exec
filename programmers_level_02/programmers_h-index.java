@@ -19,5 +19,18 @@ class Solution {
         }
         
         return answer;
+
+        /** 효율적인 다른 사람 코드
+        
+        Arrays.sort(citations);
+        
+        int max = 0;
+        for(int i=citations.length-1; i>-1; i--){
+            int min = Math.min(citations[i], citations.length-i);
+            if(max<min) max = min;
+        }
+        return max;
+
+        */
     }
 }
