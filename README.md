@@ -74,7 +74,7 @@
   | [키패드 누르기](https://programmers.co.kr/learn/courses/30/lessons/67256) | [programmers_키패드.java](./programmers_level_02/programmers_키패드.java) | ☆                                               |
   | [수식최대화](https://programmers.co.kr/learn/courses/30/lessons/67257) | [programmers_수식최대화.java](./programmers_level_02/programmers_수식최대화.java) | ☆                                               |
   | [짝지어 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12973) | [programmers_짝지어제거하기.java](./programmers_level_02/programmers_짝지어제거하기.java) | O                                               |
-  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [programmers_순위검색.java](./programmers_level_02/programmers_순위검색.java) | △(효율성 문제)                                  |
+  | [순위 검색](https://programmers.co.kr/learn/courses/30/lessons/72412) | [programmers_순위검색.java](./programmers_level_02/programmers_순위검색.java) | ☆                                               |
   | [더 맵게](https://programmers.co.kr/learn/courses/30/lessons/42626) | [programmers_더맵게.java](./programmers_level_02/programmers_더맵게.java) | O                                               |
   | [카카오프렌즈 컬러링북](https://programmers.co.kr/learn/courses/30/lessons/1829) | [programmers_카카오프렌즈_컬러링북.java](./programmers_level_02/programmers_카카오프렌즈_컬러링북.java) | O                                               |
   | [행렬 테두리 회전하기](https://programmers.co.kr/learn/courses/30/lessons/77485) | [programmers_행렬테두리회전하기.java](./programmers_level_02/programmers_행렬테두리회전하기.java) | O                                               |
