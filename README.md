@@ -113,6 +113,7 @@
 | [압축](https://programmers.co.kr/learn/courses/30/lessons/17684) | [programmers_압축.java](./programmers_level_02/programmers_압축.java) | O                                               |
 | [파일명 정렬](https://programmers.co.kr/learn/courses/30/lessons/17686) | [programmers_파일명정렬.java](./programmers_level_02/programmers_파일명정렬.java) | O                                               |
 | [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [programmers_h-index.java](./programmers_level_02/programmers_h-index.java) | O                                               |
+| [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [programmers_예상대진표.java](./programmers_level_02/programmers_예상대진표.java) | O                                               |
 
 
 
