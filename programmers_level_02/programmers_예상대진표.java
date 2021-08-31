@@ -21,5 +21,20 @@ class Solution
         }
         
         return answer;
+
+        /** 실행 시간이 더 짧은 코드
+        int round = 0;
+        // 두 참가자가 같은 참가자 번호인 경우 반복문 종료
+        while(a != b)
+        {
+            // 두 참가자의 참가자 번호 갱신
+            a = a/2 + a%2;
+            b = b/2 + b%2;
+            
+            round++;
+        }
+        return round;
+          
+         */
     }
 }
