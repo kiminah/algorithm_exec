@@ -1,63 +1,50 @@
 import java.util.*;
 class Solution {
-    ArrayList<Integer> tuple;
-    Set<String> set;
-    ArrayList<String> unique = new ArrayList<>();
-    
+    ArrayList<HashSet<Integer>> candidateKey;
     public int solution(String[][] relation) {
+        candidateKey = new ArrayList<>();
         int len = relation[0].length;
         
-        // 조합 개수
-        for(int i=0; i<len; i++){
-            // 시작 컬럼
-            for(int j=0; j<len; j++){
-                tuple = new ArrayList<>();
-                combination(relation, i+1, j);
-            }
+        for(int i=1; i<=len; i++){
+            // makeKeySet(시작 idx, relation 크기, 포함된 키의 개수, 생성할 키의 개수, 예비 후보키, relation)
+            makeKeySet(-1, len-1, 0, i, new HashSet<>(), relation);
         }
-        
-        Collections.sort(unique, (a,b)->{
-            return a.length()-b.length();
-        });
-        
-        for(int i=0; i<unique.size(); i++){
-            for(int j=i+1; j<unique.size();){
-                if(unique.get(j).contains(unique.get(i))){
-                    unique.remove(j);
-                }else j++;
-            }
-        }
-        
-        return unique.size();
+        return candidateKey.size();
     }
     
-    public void combination(String[][] relation, int size, int start){
-        tuple.add(start);
-        if(tuple.size()==size){
-            if(check_unique(relation)){
-                String tmp = "";
-                for(Integer num : tuple){
-                    tmp += String.valueOf(num);
+    public void makeKeySet(int start, int len, int cnt, int size, HashSet<Integer> keySet, String[][] relation){
+        // 1. 정한 후보키의 개수만큼 예비 후보키가 채워진 경우
+        if(cnt == size){
+            // 1-1. 최소성 확인
+            for(HashSet<Integer> key : candidateKey){
+                if(keySet.containsAll(key)){
+                    return;
                 }
-                unique.add(tmp);
             }
+            // 1-2. 유일성 확인
+            if(isUnique(keySet, relation)){
+                candidateKey.add(keySet);
+            }
+            
             return;
         }
         
-        for(int i=start+1; i<relation[0].length; i++){
-            combination(relation, size, i);
-            tuple.remove(tuple.size()-1);
+        // 2. 예비 후보키 생성
+        for(int i=start+1; i<=len; i++){
+            HashSet<Integer> newKeySet = new HashSet<>(keySet);
+            newKeySet.add(i);
+            makeKeySet(i, len, cnt+1, size, newKeySet, relation);
         }
     }
     
-    public boolean check_unique(String[][] relation){
-        set = new HashSet<>();
+    public boolean isUnique(HashSet<Integer> keySet, String[][] relation){
+        HashSet<String> set = new HashSet<>();
         
         for(int i=0; i<relation.length; i++){
-            String tmp = "";
-            for(Integer num : tuple)
-                tmp += relation[i][num];
-            if(!set.add(tmp)) return false;
+            String key = "";
+            for(int num : keySet)
+                key += relation[i][num];
+            if(!set.add(key)) return false;
         }
         return true;
     }
