@@ -116,7 +116,7 @@
 | [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [programmers_예상대진표.java](./programmers_level_02/programmers_예상대진표.java) | O                                               |
 | [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [programmers_점프와순간이동.java](./programmers_level_02/programmers_점프와순간이동.java) | O                                               |
 | [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [programmers_멀쩡한사각형.java](./programmers_level_02/programmers_멀쩡한사각형.java) | ☆<br />(BigInteger.valueOf().gcd())             |
-|                                                              |                                                              |                                                 |
+| [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [programmers_프렌즈4블록.java](./programmers_level_02/programmers_프렌즈4블록.java) | △                                               |
 
 
 
