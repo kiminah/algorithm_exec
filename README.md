@@ -115,7 +115,7 @@
 | [H-Index](https://programmers.co.kr/learn/courses/30/lessons/42747) | [programmers_h-index.java](./programmers_level_02/programmers_h-index.java) | O                                               |
 | [예상 대진표](https://programmers.co.kr/learn/courses/30/lessons/12985) | [programmers_예상대진표.java](./programmers_level_02/programmers_예상대진표.java) | O                                               |
 | [점프와 순간 이동](https://programmers.co.kr/learn/courses/30/lessons/12980) | [programmers_점프와순간이동.java](./programmers_level_02/programmers_점프와순간이동.java) | O                                               |
-| [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [programmers_멀쩡한사각형.java](./programmers_level_02/programmers_멀쩡한사각형.java) | ☆                                               |
+| [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [programmers_멀쩡한사각형.java](./programmers_level_02/programmers_멀쩡한사각형.java) | ☆<br />(BigInteger.gcb())                       |
 |                                                              |                                                              |                                                 |
 
 
