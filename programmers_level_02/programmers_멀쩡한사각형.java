@@ -14,3 +14,8 @@ class Solution {
             return (b%a==0) ? a:gcb(a, b%a);
     }
 }
+
+/** 최대공약수 : BigInteger 클래스의 내장 함수 gcd
+import java.math.BigInteger;
+int g = BigInteger.valueOf(w).gcd(BigInteger.valueOf(h)).intValue();
+ */
