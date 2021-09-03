@@ -51,6 +51,7 @@
 | [예산](https://programmers.co.kr/learn/courses/30/lessons/12982) | [programmers_예산.java](./programmers_level_01/programmers_예산.java) | O    |
 | [2016년](https://programmers.co.kr/learn/courses/30/lessons/12901) | [programmers_2016년.java](./programmers_level_01/programmers_2016년.java) | O    |
 | [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910) | [programmers_나누어떨어지는_숫자배열.java](./programmers_level_01/programmers_나누어떨어지는_숫자배열.java) | O    |
+| [이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930) | [programmers_이상한문자만들기.java](./programmers_level_01/programmers_이상한문자만들기.java) | O    |
 
 
 
