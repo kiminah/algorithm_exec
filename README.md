@@ -53,6 +53,7 @@
 | [나누어 떨어지는 숫자 배열](https://programmers.co.kr/learn/courses/30/lessons/12910) | [programmers_나누어떨어지는_숫자배열.java](./programmers_level_01/programmers_나누어떨어지는_숫자배열.java) | O    |
 | [이상한 문자 만들기](https://programmers.co.kr/learn/courses/30/lessons/12930) | [programmers_이상한문자만들기.java](./programmers_level_01/programmers_이상한문자만들기.java) | O    |
 | [평균 구하기](https://programmers.co.kr/learn/courses/30/lessons/12944) | [programmers_평균구하기.java](./programmers_level_01/programmers_평균구하기.java) | O    |
+| [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943) | [programmers_콜라츠추측.java](./programmers_level_01/programmers_콜라츠추측.java) | O    |
 
 
 
