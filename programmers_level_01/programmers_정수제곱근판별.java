@@ -7,5 +7,17 @@ class Solution {
         }
         // 2. 제곱이 아닌 경우 -1 반환
         return -1;
+
+        /** 효율성 높은 코드
+            // 1. 주어진 수 n의 제곱근을 제곱했을 때 n이 나오는 경우
+            //    주어진 수 n의 제곱근 + 1의 제곱수 리턴
+            if(Math.pow((int)Math.sqrt(n),2)==n){
+                return (long)Math.pow(Math.sqrt(n)+1,2);
+            }
+        
+            // 2. 제곱이 아닌경우 -1 반환
+            return -1;
+
+         */
     }
 }
