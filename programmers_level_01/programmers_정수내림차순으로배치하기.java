@@ -11,5 +11,10 @@ class Solution {
             answer = answer*10 + Integer.valueOf(arr[i]);
         }
         return answer;
+
+        /** Stream 사용한 코드 (실행 시간 단축)
+            String res = "" // 전역변수로 선언
+            Long.toString(n).chars().sorted().foreach(c -> res = Character.valueOf((char)c)) + res)
+         */
     }
 }
