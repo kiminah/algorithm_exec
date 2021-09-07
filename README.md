@@ -56,6 +56,7 @@
 | [콜라츠 추측](https://programmers.co.kr/learn/courses/30/lessons/12943) | [programmers_콜라츠추측.java](./programmers_level_01/programmers_콜라츠추측.java) | O    |
 | [짝수와 홀수](https://programmers.co.kr/learn/courses/30/lessons/12937) | [programmers_짝수와홀수.java](./programmers_level_01/programmers_짝수와홀수.java) | O    |
 | [제일 작은 수 제거하기](https://programmers.co.kr/learn/courses/30/lessons/12935) | [programmers_제일작은수제거하기.java](./programmers_level_01/programmers_제일작은수제거하기.java) | O    |
+| [정수 제곱근 판별](https://programmers.co.kr/learn/courses/30/lessons/12934) | [programmers_정수제곱근판별.java](./programmers_level_01/programmers_정수제곱근판별.java) | O    |
 
 
 
