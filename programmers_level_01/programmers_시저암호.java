@@ -4,27 +4,18 @@ class Solution {
 
         for(int i=0; i<s.length(); i++){
             char c = s.charAt(i);
-            // 1. 공백은 그대로 추가
-            if(c==' '){
-                answer += c;
-                continue;
-            }
 
-            // 2. 문자인 경우 n만큼 밀어주기
-            char new_c = c;
-            new_c += n;
-            // 3-1. 밀기 전 문자가 대문자인 경우 + Z를 넘어간 경우
-            //      Z를 넘어간 크기 만큼 A에서 다시 시작
-            if(c>='A' && c<='Z' && new_c>'Z')
-                new_c = (char)(new_c-'Z'+'A'-1);
-            // 3-2. 밀기전 문자가 소문자인 경우 + z를 넘어간 경우
-            //      z를 넘어간 크기 만큼 a에서 다시 시작
-            else if(new_c>'z') 
-            new_c = (char)(new_c-'z'+'a'-1);
-
-            answer += new_c;
+            // 1. 대소문자를 구분하여 n만큼 밀어서 다른 알파벳으로 변경
+            //    26으로 나눈 나머지 값을 사용하는 이유는
+            //    n의 값이 최대 25이므로 25를 벗어난 경우
+            //    a 또는 A부터 시작해야하므로 벗어난 만큼의 수를 더해줘야 하기 때문
+            //    벗어나지 않았다면 나머지 값이 c의 값 그대로 나올 것이다.
+            if(Character.isUpperCase(c))
+                c = (char)((c-'A'+n)%26+'A');
+            else if(Character.isLowerCase(c))
+                c = (char)((c-'a'+n)%26+'a');
+            answer += c;
         }
-
         return answer;
     }
 }
