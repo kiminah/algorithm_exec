@@ -60,6 +60,7 @@
 | [정수 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12933) | [programmers_정수내림차순으로배치하기.java](./programmers_level_01/programmers_정수내림차순으로배치하기.java) | O    |
 | [자연수 뒤집어 배열로 만들기](https://programmers.co.kr/learn/courses/30/lessons/12932) | [programmers_자연수뒤집어배열로만들기.java](./programmers_level_01/programmers_자연수뒤집어배열로만들기.java) | O    |
 | [자릿수 더하기](https://programmers.co.kr/learn/courses/30/lessons/12931) | [programmers_자릿수더하기.java](./programmers_level_01/programmers_자릿수더하기.java) | O    |
+| [약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928) | [programmers_약수의합.java](./programmers_level_01/programmers_약수의합.java) | O    |
 
 
 
