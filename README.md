@@ -63,6 +63,7 @@
 | [약수의 합](https://programmers.co.kr/learn/courses/30/lessons/12928) | [programmers_약수의합.java](./programmers_level_01/programmers_약수의합.java) | O    |
 | [시저 암호](https://programmers.co.kr/learn/courses/30/lessons/12926) | [programmers_시저암호.java](./programmers_level_01/programmers_시저암호.java) | O    |
 | [문자열 내림차순으로 배치하기](https://programmers.co.kr/learn/courses/30/lessons/12917) | [programmers_문자열내림차순으로배치하기.java](./programmers_level_01/programmers_문자열내림차순으로배치하기.java) | O    |
+| [문자열 내 마음대로 정렬하기](https://programmers.co.kr/learn/courses/30/lessons/12915) | [programmers_문자열내마음대로정렬하기.java](./programmers_level_01/programmers_문자열내마음대로정렬하기.java) | O    |
 
 
 
