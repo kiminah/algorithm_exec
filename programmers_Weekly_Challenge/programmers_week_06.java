@@ -1,107 +1,54 @@
 import java.util.*;
 class Solution {
-    
+
     public int[] solution(int[] weights, String[] head2head) {
         int len = weights.length;
         int[] answer = new int[len];
-        
-        List<info> list = new ArrayList<>();
-        
+
+        // (승률, 자기보다 무거운 복서 이긴 횟수, 몸무게, 선수 번호)
+        long[][] candi = new long[len][4];
+
+
+        // 1. 선수들의 정보 저장
         for(int i=0; i<len; i++){
             String arr = head2head[i];
-            int total = len-1;
-            int total_win_cnt = 0;
-            int win_cnt = 0;
-            for(int j=0; j<len; j++){
-                if(i==j) continue;
-                if(arr.charAt(j)=='W'){
-                    if(weights[i]<weights[j]) win_cnt++;
-                    total_win_cnt++;
-                }
-                else if(arr.charAt(j) == 'N') total--;
-            }
-            double rate = (total == 0) ? 0 : (double)total_win_cnt*100/(double)total;
-            list.add(new info(rate, win_cnt, weights[i], i+1));
-        }
-        
-        Collections.sort(list, (a,b)-> {
-            if(a.rate > b.rate) return -1;
-            if(a.cnt != b.cnt) return b.cnt-a.cnt;
-            return (a.kg == b.kg) ? a.num - b.num : b.kg - a.kg;
-        });
-
-        for(int i=0; i<len; i++){
-            answer[i] = list.get(i).num;
-        }
-        
-        return answer;
-        
-    }
-    
-    private static class info{
-        double rate;
-        int cnt, kg, num;
-        info(double rate, int cnt, int kg, int num){
-            this.rate = rate;
-            this.cnt = cnt;
-            this.kg = kg;
-            this.num = num;
-        }
-    }
-}
-
-
-/**
-import java.util.*;
-class Solution {
-    
-    public int[] solution(int[] weights, String[] head2head) {
-        int len = weights.length;
-        int[] answer = new int[len];
-        
-        Map<Double, info> map = new HashMap<>();
-        
-        for(int i=0; i<len; i++){
-            String arr = head2head[i];
-            int l_cnt = 0;
-            int w_cnt = 0;
-            int big_cnt = 0;
+            int l_cnt = 0; // 진 횟수
+            int w_cnt = 0; // 이긴 횟수
             for(int j=0; j<len; j++){
                 if(arr.charAt(j)=='W'){
-                    if(weights[i]<weights[j]) big_cnt++;
+                    // 자기보다 무거운 복서를 이긴 경우
+                    if(weights[i]<weights[j]) candi[i][1]++;
                     w_cnt++;
                 }
                 else if(arr.charAt(j) == 'L') l_cnt++;
             }
-            double rate = (double)w_cnt/(w_cnt+l_cnt);
-            map.put(rate, new info(i+1, big_cnt));
+            // 승률
+            double rate = (w_cnt+l_cnt == 0) ? 0 : (double)w_cnt/(double)(w_cnt+l_cnt);
+            candi[i][0] = (long)(rate*1000000);
+            candi[i][2] = weights[i];
+            candi[i][3] = i+1;
         }
-        List<Double> list = new ArrayList<>(map.keySet());
-        Collections.sort(list, Collections.reverseOrder());
-        Collections.sort(list, (a,b)-> {
-            info o1 = map.get(a);
-            info o2 = map.get(b);
-            if((a-b)==0){
-                if(o1.cnt != o2.cnt) return o2.cnt - o1.cnt;
-                return (weights[o2.num] == weights[o1.num]) ? 0 : weights[o2.num] - weights[o1.num];
-            }
+
+        // 2. 정렬
+        Arrays.sort(candi, (a,b)-> {
+            
+            // 2-1. 승률 내림차순 정렬
+            if(a[0] != b[0]) return Long.compare(b[0],a[0]);
+            
+            // 2-2. 자기보다 무거운 복서를 이긴 횟수 내림차순 정렬
+            if(a[1] != b[1]) return Long.compare(b[1],a[1]);
+            
+            // 2-3. 몸무게 내림차순 정렬
+            //      몸무게가 같은 경우 선수 번호로 오름차순 정렬
+            return (a[2] == b[2]) ? Long.compare(a[3], b[3]) : Long.compare(b[2],a[2]);
+
         });
 
-        System.out.println(list);
         for(int i=0; i<len; i++){
-            // answer[i] = map.get(list.get(i));
+            answer[i] = (int)candi[i][3];
         }
-        
+
         return answer;
-        
-    }
-    
-    private static class info{
-        int num, cnt;
-        info(int num, int cnt){
-            this.num = num;
-            this.cnt = cnt;
-        }
+
     }
 }
-*/
