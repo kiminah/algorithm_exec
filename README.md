@@ -140,6 +140,7 @@
 | [네트워크](https://programmers.co.kr/learn/courses/30/lessons/43162) | [programmers_네트워크.java](./programmers_level_03/programmers_네트워크.java) | O    |
 | [단어 변환](https://programmers.co.kr/learn/courses/30/lessons/43163) | [programmers_단어변환.java](./programmers_level_03/programmers_단어변환.java) | △    |
 | [여행경로](https://programmers.co.kr/learn/courses/30/lessons/43164) | [programmers_여행경로.java](./programmers_level_03/programmers_여행경로.java) | △    |
+| [N-Queen](https://programmers.co.kr/learn/courses/30/lessons/12952) | [programmers_N-Queen.java](./programmers_level_03/programmers_N-Queen.java) | O    |
 
 
 
