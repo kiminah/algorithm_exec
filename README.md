@@ -170,20 +170,20 @@
 
 ## Backjoon
 
-| 문제                                                         | 파일 이름                                                    | 상태         |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------ |
-| [구슬 탈출2](https://www.acmicpc.net/problem/13460)          | [backjoon_구슬탈출2.java](./backjoon/backjoon_구슬탈출2.java) | X            |
-| [치킨배달](https://www.acmicpc.net/problem/15686)            | [backjoon_치킨배달.java](./backjoon/backjoon_치킨배달.java)  | △            |
-| [미세먼지](https://www.acmicpc.net/problem/17144)            | [backjoon_미세먼지.java](./backjoon/backjoon_미세먼지.java)  | △            |
-| [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [backjoon_마법사상어와_토네이도.java](./backjoon/backjoon_마법사상어와_토네이도.java) | X            |
-| [퇴사](https://www.acmicpc.net/problem/14501)                | [backjoon_퇴사.java](./backjoon/backjoon_퇴사.java)          | △            |
-| [아기상어](https://www.acmicpc.net/problem/16236)            | [backjoon_아기상어.java](./backjoon/backjoon_아기상어.java)  | X            |
-| [피보나치 수](https://www.acmicpc.net/problem/2747)          | [backjoon_피보나치수.java](./backjoon/backjoon_피보나치수.java) | O            |
-| [피보나치 수 2](https://www.acmicpc.net/problem/2748)        | [backjoon_피보나치수2.java](./backjoon/backjoon_피보나치수2.java) | O            |
-| [피보나치 수 3](https://www.acmicpc.net/problem/2749)        | [backjoon_피보나치수3.java](./backjoon/backjoon_피보나치수3.java) | ☆            |
-| [평범한 배낭](https://www.acmicpc.net/problem/12865)         | [backjoon_평범한배낭.java](./backjoon/backjoon_평범한배낭.java) | O            |
-| [가운데를 말해요](https://www.acmicpc.net/problem/1655)      | [backjoon_가운데를_말해요.java](./backjoon/backjoon_가운데를_말해요.java) | ☆            |
-| [백조의 호수](https://www.acmicpc.net/problem/3197)          | [backjoon_백조의호수.java](./backjoon/backjoon_백조의호수.java) | X(시간 초과) |
+| 문제                                                         | 파일 이름                                                    | 상태 |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| [구슬 탈출2](https://www.acmicpc.net/problem/13460)          | [backjoon_구슬탈출2.java](./backjoon/backjoon_구슬탈출2.java) | X    |
+| [치킨배달](https://www.acmicpc.net/problem/15686)            | [backjoon_치킨배달.java](./backjoon/backjoon_치킨배달.java)  | △    |
+| [미세먼지](https://www.acmicpc.net/problem/17144)            | [backjoon_미세먼지.java](./backjoon/backjoon_미세먼지.java)  | △    |
+| [마법사 상어와 토네이도](https://www.acmicpc.net/problem/20057) | [backjoon_마법사상어와_토네이도.java](./backjoon/backjoon_마법사상어와_토네이도.java) | X    |
+| [퇴사](https://www.acmicpc.net/problem/14501)                | [backjoon_퇴사.java](./backjoon/backjoon_퇴사.java)          | △    |
+| [아기상어](https://www.acmicpc.net/problem/16236)            | [backjoon_아기상어.java](./backjoon/backjoon_아기상어.java)  | X    |
+| [피보나치 수](https://www.acmicpc.net/problem/2747)          | [backjoon_피보나치수.java](./backjoon/backjoon_피보나치수.java) | O    |
+| [피보나치 수 2](https://www.acmicpc.net/problem/2748)        | [backjoon_피보나치수2.java](./backjoon/backjoon_피보나치수2.java) | O    |
+| [피보나치 수 3](https://www.acmicpc.net/problem/2749)        | [backjoon_피보나치수3.java](./backjoon/backjoon_피보나치수3.java) | ☆    |
+| [평범한 배낭](https://www.acmicpc.net/problem/12865)         | [backjoon_평범한배낭.java](./backjoon/backjoon_평범한배낭.java) | O    |
+| [가운데를 말해요](https://www.acmicpc.net/problem/1655)      | [backjoon_가운데를_말해요.java](./backjoon/backjoon_가운데를_말해요.java) | ☆    |
+| [백조의 호수](https://www.acmicpc.net/problem/3197)          | [backjoon_백조의호수.java](./backjoon/backjoon_백조의호수.java) | ☆    |
 
 - 옛날 문제
 
