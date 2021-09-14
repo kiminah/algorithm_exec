@@ -185,6 +185,7 @@
 | [가운데를 말해요](https://www.acmicpc.net/problem/1655)      | [backjoon_가운데를_말해요.java](./backjoon/backjoon_가운데를_말해요.java) | ☆    |
 | [백조의 호수](https://www.acmicpc.net/problem/3197)          | [backjoon_백조의호수.java](./backjoon/backjoon_백조의호수.java) | ☆    |
 | [안전 영역](https://www.acmicpc.net/problem/2468)            | [backjoon_안전영역.java](./backjoon/backjoon_안전영역.java)  | O    |
+| [벽 부수고 이동하기 4](https://www.acmicpc.net/problem/16946) | [backjoon_벽부수고이동하기4.java](./backjoon/backjoon_벽부수고이동하기4.java) | X    |
 
 - 옛날 문제
 
