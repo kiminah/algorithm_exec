@@ -189,6 +189,7 @@
 | [벽 부수고 이동하기 1](https://www.acmicpc.net/problem/2206) | [backjoon_벽부수고이동하기1.java](./backjoon/backjoon_벽부수고이동하기1.java) | ☆    |
 | [토마토](https://www.acmicpc.net/problem/7569)               | [backjoon_토마토.java](./backjoon/backjoon_토마토.java)      | O    |
 | [숨바꼭질](acmicpc.net/problem/1697)                         | [backjoon_숨바꼭질.java](./backjoon/backjoon_숨바꼭질.java)  | ☆    |
+| [빙산](https://www.acmicpc.net/problem/2573)                 | [backjoon_빙산.java](./backjoon/backjoon_빙산.java)          | O    |
 
 - 옛날 문제
 
