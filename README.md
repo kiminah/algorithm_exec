@@ -188,6 +188,7 @@
 | [벽 부수고 이동하기 4](https://www.acmicpc.net/problem/16946) | [backjoon_벽부수고이동하기4.java](./backjoon/backjoon_벽부수고이동하기4.java) | X    |
 | [벽 부수고 이동하기 1](https://www.acmicpc.net/problem/2206) | [backjoon_벽부수고이동하기1.java](./backjoon/backjoon_벽부수고이동하기1.java) | ☆    |
 | [토마토](https://www.acmicpc.net/problem/7569)               | [backjoon_토마토.java](./backjoon/backjoon_토마토.java)      | O    |
+| [숨바꼭질](acmicpc.net/problem/1697)                         | [backjoon_숨바꼭질.java](./backjoon/backjoon_숨바꼭질.java)  | ☆    |
 
 - 옛날 문제
 
