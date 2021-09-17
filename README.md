@@ -187,6 +187,7 @@
 | [안전 영역](https://www.acmicpc.net/problem/2468)            | [backjoon_안전영역.java](./backjoon/backjoon_안전영역.java)  | O    |
 | [벽 부수고 이동하기 4](https://www.acmicpc.net/problem/16946) | [backjoon_벽부수고이동하기4.java](./backjoon/backjoon_벽부수고이동하기4.java) | X    |
 | [벽 부수고 이동하기 1](https://www.acmicpc.net/problem/2206) | [backjoon_벽부수고이동하기1.java](./backjoon/backjoon_벽부수고이동하기1.java) | ☆    |
+| [토마토](https://www.acmicpc.net/problem/7569)               | [backjoon_토마토.java](./backjoon/backjoon_토마토.java)      | O    |
 
 - 옛날 문제
 
