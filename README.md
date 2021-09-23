@@ -190,6 +190,7 @@
 | [토마토](https://www.acmicpc.net/problem/7569)               | [backjoon_토마토.java](./backjoon/backjoon_토마토.java)      | O    |
 | [숨바꼭질](acmicpc.net/problem/1697)                         | [backjoon_숨바꼭질.java](./backjoon/backjoon_숨바꼭질.java)  | ☆    |
 | [빙산](https://www.acmicpc.net/problem/2573)                 | [backjoon_빙산.java](./backjoon/backjoon_빙산.java)          | O    |
+| [맥주 마시면서 걸어가기](https://www.acmicpc.net/problem/9205) | [backjoon_맥주마시면서걸어가기.java](./backjoon/backjoon_맥주마시면서걸어가기.java) | O    |
 
 - 옛날 문제
 
