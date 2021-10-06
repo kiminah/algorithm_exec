@@ -152,6 +152,7 @@
 | [2주차](https://programmers.co.kr/learn/courses/30/lessons/83201) | [programmers_week_02](./programmers_Weekly_Challenge/programmers_week_02) | O    |
 | [4주차](https://programmers.co.kr/learn/courses/30/lessons/84325) | [programmers_week_04](./programmers_Weekly_Challenge/programmers_week_04) | O    |
 | [6주차](https://programmers.co.kr/learn/courses/30/lessons/85002) | [programmers_week_06](./programmers_Weekly_Challenge/programmers_week_06) | O    |
+| [9주차](https://programmers.co.kr/learn/courses/30/lessons/86971) | [programmers_week_09](./programmers_Weekly_Challenge/programmers_week_09) | O    |
 
 
 
