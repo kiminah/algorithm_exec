@@ -149,11 +149,12 @@
 
 | Week 문제                                                    | 파일 이름                                                    | 상태 |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
-| [1주차](https://programmers.co.kr/learn/courses/30/lessons/82612) | [programmers_week_01](./programmers_Weekly_Challenge/programmers_week_01) | O    |
-| [2주차](https://programmers.co.kr/learn/courses/30/lessons/83201) | [programmers_week_02](./programmers_Weekly_Challenge/programmers_week_02) | O    |
-| [4주차](https://programmers.co.kr/learn/courses/30/lessons/84325) | [programmers_week_04](./programmers_Weekly_Challenge/programmers_week_04) | O    |
-| [6주차](https://programmers.co.kr/learn/courses/30/lessons/85002) | [programmers_week_06](./programmers_Weekly_Challenge/programmers_week_06) | O    |
-| [9주차](https://programmers.co.kr/learn/courses/30/lessons/86971) | [programmers_week_09](./programmers_Weekly_Challenge/programmers_week_09) | O    |
+| [1주차](https://programmers.co.kr/learn/courses/30/lessons/82612) | [programmers_week_01](./programmers_Weekly_Challenge/programmers_week_01.java) | O    |
+| [2주차](https://programmers.co.kr/learn/courses/30/lessons/83201) | [programmers_week_02](./programmers_Weekly_Challenge/programmers_week_02.java) | O    |
+| [4주차](https://programmers.co.kr/learn/courses/30/lessons/84325) | [programmers_week_04](./programmers_Weekly_Challenge/programmers_week_04.java) | O    |
+| [6주차](https://programmers.co.kr/learn/courses/30/lessons/85002) | [programmers_week_06](./programmers_Weekly_Challenge/programmers_week_06.java) | O    |
+| [9주차](https://programmers.co.kr/learn/courses/30/lessons/86971) | [programmers_week_09](./programmers_Weekly_Challenge/programmers_week_09.java) | O    |
+| [8주차](https://programmers.co.kr/learn/courses/30/lessons/86491) | [programmers_week_08](./programmers_Weekly_Challenge/programmers_week_08.java) | O    |
 
 
 
