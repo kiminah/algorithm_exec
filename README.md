@@ -111,6 +111,7 @@
 | [땅따먹기](https://programmers.co.kr/learn/courses/30/lessons/12913) | [programmers_땅따먹기.java](./programmers_level_02/programmers_땅따먹기.java) | ☆                                               |
 | [가장 큰 정사각형 찾기](https://programmers.co.kr/learn/courses/30/lessons/12905) | [programmers_가장큰정사각형찾기.java](./programmers_level_02/programmers_가장큰정사각형찾기.java) | ☆                                               |
 | [행렬의 곱셈](https://programmers.co.kr/learn/courses/30/lessons/12949) | [programmers_행렬의곱셈.java](./programmers_level_02/programmers_행렬의곱셈.java) | O                                               |
+| [n진수게임](https://programmers.co.kr/learn/courses/30/lessons/17687) | [programmers_n진수게임.java](./programmers_level_02/programmers_n진수게임.java) | ☆                                               |
 | [카펫](https://programmers.co.kr/learn/courses/30/lessons/42842) | [programmers_카펫.java](./programmers_level_02/programmers_카펫.java) | O                                               |
 | [N개의 최소공배수](https://programmers.co.kr/learn/courses/30/lessons/12953) | [programmers_N개의최소공배수.java](./programmers_level_02/programmers_N개의최소공배수.java) | O*                                              |
 | [괄호 변환](https://programmers.co.kr/learn/courses/30/lessons/60058) | [programmers_괄호변환.java](./programmers_level_02/programmers_괄호변환.java) | △<br />(구현,재귀 약함..)                       |
@@ -133,6 +134,7 @@
 | [멀쩡한 사각형](https://programmers.co.kr/learn/courses/30/lessons/62048) | [programmers_멀쩡한사각형.java](./programmers_level_02/programmers_멀쩡한사각형.java) | ☆<br />(BigInteger.valueOf().gcd())             |
 | [프렌즈4블록](https://programmers.co.kr/learn/courses/30/lessons/17679) | [programmers_프렌즈4블록.java](./programmers_level_02/programmers_프렌즈4블록.java) | △                                               |
 | [n^2 배열 자르기](https://programmers.co.kr/learn/courses/30/lessons/87390) | [programmers_n^2배열자르기.java](./programmers_level_02/programmers_n^2배열자르기.java) | O                                               |
+|                                                              |                                                              |                                                 |
 
 
 
