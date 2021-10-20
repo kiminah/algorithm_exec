@@ -201,6 +201,7 @@
 | [촌수계산](https://www.acmicpc.net/problem/2644)             | [backjoon_촌수계산.java](./backjoon/backjoon_촌수계산.java)  | O    |
 | [스타트링크](https://www.acmicpc.net/problem/5014)           | [backjoon_스타트링크.java](./backjoon/backjoon_스타트링크.java) | O    |
 | [알파벳](https://www.acmicpc.net/problem/1987)               | [backjoon_알파벳.java](./backjoon/backjoon_알파벳.java)      | O    |
+| [로봇 청소기](https://www.acmicpc.net/problem/14503)         | [backjoon_로봇청소기.java](./backjoon/backjoon_로봇청소기.java) | △    |
 
 - 옛날 문제
 
